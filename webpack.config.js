@@ -100,7 +100,7 @@ module.exports.module = {
             loader: 'file-loader',
             options: {
                 name: 'img/[name].[ext]?[hash]',
-                publicPath: '/dist/'
+                publicPath: Mix.publicPath ? `/${Mix.publicPath}/` : '/'
             }
         },
 
@@ -109,7 +109,7 @@ module.exports.module = {
             loader: 'file-loader',
             options: {
                 name: 'fonts/[name].[ext]?[hash]',
-                publicPath: '/dist/'
+                publicPath: Mix.publicPath ? `/${Mix.publicPath}/` : '/'
             }
         }
     ]
