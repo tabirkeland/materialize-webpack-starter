@@ -99,7 +99,7 @@ module.exports.module = {
             test: /\.(png|jpg|gif)$/,
             loader: 'file-loader',
             options: {
-                name: 'dist/img/[name].[ext]?[hash]',
+                name: 'img/[name].[ext]?[hash]',
                 publicPath: '/'
             }
         },
@@ -108,7 +108,7 @@ module.exports.module = {
             test: /\.(woff2?|ttf|eot|svg|otf)$/,
             loader: 'file-loader',
             options: {
-                name: 'dist/fonts/[name].[ext]?[hash]',
+                name: 'fonts/[name].[ext]?[hash]',
                 publicPath: '/'
             }
         }
