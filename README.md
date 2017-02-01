@@ -1,7 +1,7 @@
 # Materialize Webpack Starter
 
 ## Overview
-This starter template utilizes [Materialize CSS](http://materializecss.com/) and [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).  Laravel Mix is a Wepback wrapper that provides a good starting point for working with the package bundler.
+This starter template utilizes [Materialize CSS](http://materializecss.com/) and [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).  Laravel Mix is a Webpack 2 wrapper that provides a good starting point for working with the package bundler.
 
 ## Installation
 Simply clone and run `npm install`.
