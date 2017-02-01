@@ -1,0 +1,21 @@
+{
+  "name": "tabirkeland.com",
+  "version": "1.0.0",
+  "description": "Taylor Birkeland personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hmr": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "Taylor Birkeland",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "laravel-mix": "^0.6.0",
+    "lodash": "^4.17.4",
+    "materialize-css": "^0.98.0",
+    "typed.js": "^1.1.1"
+  }
+}
